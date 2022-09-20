@@ -1,0 +1,27 @@
+.Footer {
+ background-color: #F8F9FA;
+    padding: 25px 50px;
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.youtube {
+    color: 	#0072b1;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.whatsapp {
+    color: #25D366;
+  }
+  
+  a.instagram {
+    color:  #833AB4;
+  }

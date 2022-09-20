@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+.About h1{
+    color: whitesmoke ;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Ropa Sans', sans-serif;
+    padding: 10px;
+    font-size: 60px;
+}
+.About h2{
+    padding: 10px;
+   font-size: 45px;
+    color:white;
+    text-align: center;
+    font-family: 'Ropa Sans', sans-serif;
+    
+}
+
+.About{
+    background: #282c34;
+    height: 60vh;
+}
+.About span:before{
+    color: blue;
+content: '';
+animation: text infinite 5s;
+}
+
+@keyframes text{
+    0%{
+        content: 'Code';
+    }
+    100%{
+        content: 'Learn new languages';
+    }
+}
+@media (max-width: 730px) {
+    .About h1{
+        color: whitesmoke ;
+        text-align: center;
+        text-decoration: underline;
+        padding: 10px;
+        font-size: 40px;
+    }
+    .About h2{
+        padding: 10px;
+       font-size: 25px;
+        color:white;
+        text-align: center;
+        
+    }
+    
+    .About{
+  
+        height: 90vh;
+    }
+    .About span:before{
+        color: blue;
+    content: '';
+    animation: text infinite 5s;
+    }
+    
+    
+  }
+  @media (min-width: 500px) and (max-width: 1200px)  {
+    .About{
+
+        height: 90vh;
+    }
+
+  }
